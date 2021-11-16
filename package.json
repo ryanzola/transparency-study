@@ -3,7 +3,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
-    "dev": "webpack serve --config ./bundler/webpack.dev.js"
+    "dev": "webpack serve --config ./bundler/webpack.dev.js",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@babel/core": "^7.14.6",
@@ -20,7 +21,9 @@
     "portfinder-sync": "0.0.2",
     "raw-loader": "^4.0.2",
     "style-loader": "^3.0.0",
-    "three": "^0.130.1",
+    "three": "^0.134.0",
+    "tweakpane": "^3.0.5",
+    "vercel": "^23.1.2",
     "webpack": "^5.42.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2",
