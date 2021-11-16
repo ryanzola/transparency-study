@@ -1,4 +1,4 @@
-# Three.js - Template - Simple
+# Transparency and Textured Glass
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
